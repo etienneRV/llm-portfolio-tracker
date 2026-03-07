@@ -1,0 +1,104 @@
+[
+  {
+    "id": "claude-mar-2026",
+    "name": "Claude Sonnet 4.6",
+    "llm": "Claude",
+    "created_date": "2025-01-02",
+    "active": true,
+    "color": "#d97706",
+    "fee": "~0.21%",
+    "description": "A retirement-maximising portfolio built specifically for a Switzerland-based investor, optimising for long-run real CHF purchasing power. The core holds broad global equity with a deliberate factor satellite targeting the small-cap value premium (AVUV, AVDV). Global listed real estate (VNQI) and physical gold (IAU) provide inflation resilience, while a modest bond sleeve seeds the future retirement glidepath. Note: original portfolio used Swiss-domiciled ETFs (VWRL, CHSPI, CSGOLD etc.) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "holdings": [
+      { "ticker": "VT",   "weight": 0.22 },
+      { "ticker": "VEA",  "weight": 0.10 },
+      { "ticker": "AVUV", "weight": 0.18 },
+      { "ticker": "AVDV", "weight": 0.10 },
+      { "ticker": "IEMG", "weight": 0.08 },
+      { "ticker": "VNQI", "weight": 0.07 },
+      { "ticker": "IAU",  "weight": 0.05 },
+      { "ticker": "BNDX", "weight": 0.08 },
+      { "ticker": "SGOV", "weight": 0.05 },
+      { "ticker": "BIL",  "weight": 0.07 }
+    ]
+  },
+  {
+    "id": "chatgpt-mar-2026",
+    "name": "ChatGPT 5.4",
+    "llm": "ChatGPT",
+    "created_date": "2025-01-02",
+    "active": true,
+    "color": "#10b981",
+    "fee": "~0.12%",
+    "description": "A Swiss retirement-focused, global core-satellite portfolio built to maximize long-run real wealth. Uses global equities as the main growth engine, adds small-cap value and quality tilts for higher expected long-term return, and includes a small allocation to bonds and gold for stability and inflation resilience. Note: original portfolio used Swiss-domiciled ETFs (CHSPI, SGLN, CSBGC3, CHCORP) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "holdings": [
+      { "ticker": "VTI",  "weight": 0.25 },
+      { "ticker": "AVUV", "weight": 0.10 },
+      { "ticker": "VXUS", "weight": 0.15 },
+      { "ticker": "AVDV", "weight": 0.08 },
+      { "ticker": "IEMG", "weight": 0.07 },
+      { "ticker": "VEA",  "weight": 0.10 },
+      { "ticker": "QUAL", "weight": 0.10 },
+      { "ticker": "IAU",  "weight": 0.05 },
+      { "ticker": "BNDX", "weight": 0.05 },
+      { "ticker": "BND",  "weight": 0.05 }
+    ]
+  },
+  {
+    "id": "gemini-mar-2026",
+    "name": "Gemini 3.1 Pro",
+    "llm": "Gemini",
+    "created_date": "2025-01-02",
+    "active": true,
+    "color": "#6366f1",
+    "fee": "~0.15%",
+    "description": "A Swiss-Anchored Global Factor Barbell strategy designed to maximize long-term real wealth. Balances core global equity beta (VOO, VEA) and US tech momentum (QQQM) with small-cap value factors (AVUV, AVDV). An emerging markets sleeve (AVEM) captures demographic growth. Note: original portfolio included CHSPI for Swiss home bias — replaced with VEA as closest liquid US-listed equivalent.",
+    "holdings": [
+      { "ticker": "VOO",  "weight": 0.25 },
+      { "ticker": "VEA",  "weight": 0.30 },
+      { "ticker": "AVUV", "weight": 0.15 },
+      { "ticker": "AVDV", "weight": 0.10 },
+      { "ticker": "AVEM", "weight": 0.10 },
+      { "ticker": "QQQM", "weight": 0.10 }
+    ]
+  },
+  {
+    "id": "deepseek-mar-2026",
+    "name": "DeepSeek R1",
+    "llm": "DeepSeek",
+    "created_date": "2025-01-02",
+    "active": true,
+    "color": "#ec4899",
+    "fee": "~0.14%",
+    "description": "Targets 5.5-6.5% annualized returns over 40 years by combining global equity beta with factor tilts (small-cap value via AVUV/AVDV), and a gold hedge (IAU) against inflation. Minimal bonds (BND) provide future glidepath ballast. Note: original portfolio used Swiss-domiciled ETFs (CHSPI, PGHN, IWDA, ZPRV, ZPRX, CHBAA) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "holdings": [
+      { "ticker": "VEA",  "weight": 0.12 },
+      { "ticker": "VIG",  "weight": 0.08 },
+      { "ticker": "VT",   "weight": 0.40 },
+      { "ticker": "VXUS", "weight": 0.20 },
+      { "ticker": "AVUV", "weight": 0.05 },
+      { "ticker": "AVDV", "weight": 0.05 },
+      { "ticker": "IAU",  "weight": 0.05 },
+      { "ticker": "BND",  "weight": 0.05 }
+    ]
+  },
+  {
+    "id": "perplexity-mar-2026",
+    "name": "Perplexity",
+    "llm": "Perplexity",
+    "created_date": "2025-01-02",
+    "active": true,
+    "color": "#38bdf8",
+    "fee": "~0.22%",
+    "description": "A global, equity-dominant retirement portfolio with tilts to global small caps, emerging markets, and quality, complemented by a small allocation to global REITs, gold, and bonds for regime diversification. Note: original portfolio used Swiss/European ETFs (VWRL, CHSPI, WSML, VFEM) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "holdings": [
+      { "ticker": "VT",   "weight": 0.45 },
+      { "ticker": "VEA",  "weight": 0.10 },
+      { "ticker": "AVUV", "weight": 0.10 },
+      { "ticker": "IEMG", "weight": 0.10 },
+      { "ticker": "QUAL", "weight": 0.10 },
+      { "ticker": "VNQI", "weight": 0.05 },
+      { "ticker": "IAU",  "weight": 0.05 },
+      { "ticker": "BND",  "weight": 0.05 }
+    ]
+  }
+]
