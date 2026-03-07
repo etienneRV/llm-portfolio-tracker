@@ -49,7 +49,7 @@ function PortfolioCard({ portfolio: p }) {
               color: '#94a3b8',
               marginBottom: '1rem'
             }}>
-              {'💰 Blended fee: '}
+              {'Blended fee: '}
               <span style={{ color: '#e2e8f0', fontWeight: 600 }}>{p.fee}</span>
             </div>
           )}
@@ -170,12 +170,21 @@ export default function App() {
       padding: '2rem'
     }}>
       <h1 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '0.25rem' }}>
-        🤖 LLM Portfolio Tracker
+        LLM Portfolio Tracker
       </h1>
 
       <p style={{ color: '#64748b', marginBottom: '2rem' }}>
-  Inspired by the FT article "Dear ChatGPT, please construct me an optimal portfolio" by Stuart Kirk, this tracks how the top 5 LLM models perform long term against a global benchmark. Portfolios are rebalanced quarterly.
-</p>
+        Inspired by the FT article{' '}
+        <a
+          href="https://www.ft.com/content/000d33c8-efc5-46cc-a213-e153b3f6a250"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: '#94a3b8', textDecoration: 'underline' }}
+        >
+          Dear ChatGPT, please construct me an optimal portfolio
+        </a>
+        {' by Stuart Kirk, this tracks how the top 5 LLM models perform long term against a global benchmark. Portfolios are rebalanced quarterly.'}
+      </p>
 
       <div style={{
         backgroundColor: '#0f172a',
@@ -206,7 +215,7 @@ export default function App() {
 
         {!hasVT && (
           <p style={{ color: '#f59e0b', fontSize: '0.8rem', marginBottom: '1rem' }}>
-            {'⚠️ VT data not found — run python3 scripts/fetch_prices.py to add it'}
+            VT data not found — run python3 scripts/fetch_prices.py to add it
           </p>
         )}
 
@@ -214,7 +223,7 @@ export default function App() {
           <p style={{ color: '#64748b' }}>Loading chart...</p>
         ) : chartData.length === 0 ? (
           <p style={{ color: '#ef4444' }}>
-            {'⚠️ No price data found. Make sure you ran: python3 scripts/fetch_prices.py'}
+            No price data found. Make sure you ran: python3 scripts/fetch_prices.py
           </p>
         ) : (
           <PortfolioChart chartData={chartData} portfolios={activePortfolios} />
