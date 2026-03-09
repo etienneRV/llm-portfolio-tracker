@@ -183,7 +183,7 @@ export default function App() {
         >
           Dear ChatGPT, please construct me an optimal portfolio
         </a>
-        {' by Stuart Kirk, this tracks how the top 5 LLM models perform long term against a global benchmark. Portfolios are rebalanced quarterly.'}
+        {' by Stuart Kirk, this tracks how the top 5 LLM models perform long term against the Vanguard Total World (VT) benchmark. Portfolios are rebalanced quarterly.'}
       </p>
 
       <div style={{
