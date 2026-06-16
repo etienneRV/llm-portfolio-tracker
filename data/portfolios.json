@@ -6,20 +6,19 @@
     "created_date": "2025-01-02",
     "active": true,
     "color": "#d97706",
-    "fee": "~0.21%",
-    "description": "A retirement-maximising portfolio built specifically for a Switzerland-based investor, optimising for long-run real CHF purchasing power. The core holds broad global equity with a deliberate factor satellite targeting the small-cap value premium (AVUV, AVDV). Global listed real estate (VNQI) and physical gold (IAU) provide inflation resilience, while a modest bond sleeve seeds the future retirement glidepath. Note: original portfolio used Swiss-domiciled ETFs (VWRL, CHSPI, CSGOLD etc.) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "fee": "~0.05%",
+    "description": "A factor-tilted, globally diversified portfolio designed to beat VT on a risk-adjusted basis by overweighting US quality/growth, adding selective international exposure, and including a modest defensive allocation via dividend growth and short-duration bonds. The tilt away from market-cap-weight VT is deliberate — capturing small-cap, dividend growth, and international re-rating tailwinds that a plain VT holding misses.",
     "holdings": [
-      { "ticker": "VT",   "weight": 0.22 },
-      { "ticker": "VEA",  "weight": 0.10 },
-      { "ticker": "AVUV", "weight": 0.18 },
-      { "ticker": "AVDV", "weight": 0.10 },
-      { "ticker": "IEMG", "weight": 0.08 },
-      { "ticker": "VNQI", "weight": 0.07 },
-      { "ticker": "IAU",  "weight": 0.05 },
-      { "ticker": "BNDX", "weight": 0.08 },
-      { "ticker": "SGOV", "weight": 0.05 },
-      { "ticker": "BIL",  "weight": 0.07 }
-    ]
+  { "ticker": "VTI",  "weight": 0.28 },
+  { "ticker": "VXUS", "weight": 0.18 },
+  { "ticker": "VUG",  "weight": 0.12 },
+  { "ticker": "VIG",  "weight": 0.10 },
+  { "ticker": "SCHD", "weight": 0.08 },
+  { "ticker": "VTWO", "weight": 0.07 },
+  { "ticker": "VDE",  "weight": 0.06 },
+  { "ticker": "VNQ",  "weight": 0.05 },
+  { "ticker": "BND",  "weight": 0.06 }
+]
   },
   {
     "id": "chatgpt-mar-2026",
@@ -28,20 +27,17 @@
     "created_date": "2025-01-02",
     "active": true,
     "color": "#10b981",
-    "fee": "~0.12%",
-    "description": "A Swiss retirement-focused, global core-satellite portfolio built to maximize long-run real wealth. Uses global equities as the main growth engine, adds small-cap value and quality tilts for higher expected long-term return, and includes a small allocation to bonds and gold for stability and inflation resilience. Note: original portfolio used Swiss-domiciled ETFs (CHSPI, SGLN, CSBGC3, CHCORP) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "fee": "~0.08%",
+    "description": "This portfolio is designed to outperform a pure global-market-cap benchmark such as VT over the long run by maintaining broad global diversification while adding targeted tilts toward U.S. small-cap value (AVUV) and quality stocks (QUAL), two factors that have historically delivered excess returns over long periods. A modest allocation to real estate (VNQ) and bonds (BND) aims to improve diversification and reduce portfolio volatility without materially sacrificing expected returns.",
     "holdings": [
-      { "ticker": "VTI",  "weight": 0.25 },
-      { "ticker": "AVUV", "weight": 0.10 },
-      { "ticker": "VXUS", "weight": 0.15 },
-      { "ticker": "AVDV", "weight": 0.08 },
-      { "ticker": "IEMG", "weight": 0.07 },
-      { "ticker": "VEA",  "weight": 0.10 },
-      { "ticker": "QUAL", "weight": 0.10 },
-      { "ticker": "IAU",  "weight": 0.05 },
-      { "ticker": "BNDX", "weight": 0.05 },
-      { "ticker": "BND",  "weight": 0.05 }
-    ]
+  { "ticker": "VTI", "weight": 0.35 },
+  { "ticker": "VEA", "weight": 0.20 },
+  { "ticker": "VWO", "weight": 0.10 },
+  { "ticker": "AVUV", "weight": 0.10 },
+  { "ticker": "QUAL", "weight": 0.10 },
+  { "ticker": "VNQ", "weight": 0.05 },
+  { "ticker": "BND", "weight": 0.10 }
+]
   },
   {
     "id": "gemini-mar-2026",
@@ -50,16 +46,16 @@
     "created_date": "2025-01-02",
     "active": true,
     "color": "#6366f1",
-    "fee": "~0.15%",
-    "description": "A Swiss-Anchored Global Factor Barbell strategy designed to maximize long-term real wealth. Balances core global equity beta (VOO, VEA) and US tech momentum (QQQM) with small-cap value factors (AVUV, AVDV). An emerging markets sleeve (AVEM) captures demographic growth. Note: original portfolio included CHSPI for Swiss home bias — replaced with VEA as closest liquid US-listed equivalent.",
+    "fee": "~0.07%",
+    "description": "This strategy aims to outperform the broad global benchmark (VT) by constructing a foundational, low-cost international core via VTI, VEA, and VWO, while aggressively introducing targeted factor tilts. It overweights US small-cap value via AVUV to capture structurally persistent size and value premiums, while balancing it with large-cap secular growth through QQQM and high-quality, cash-flow-rich companies via SCHD. This blended multi-factor overlay optimizes the portfolio for risk-adjusted alpha over the next quarter without entirely sacrificing the downside-mitigation benefits of global diversification.",
     "holdings": [
-      { "ticker": "VOO",  "weight": 0.25 },
-      { "ticker": "VEA",  "weight": 0.30 },
-      { "ticker": "AVUV", "weight": 0.15 },
-      { "ticker": "AVDV", "weight": 0.10 },
-      { "ticker": "AVEM", "weight": 0.10 },
-      { "ticker": "QQQM", "weight": 0.10 }
-    ]
+  { "ticker": "VTI", "weight": 0.40 },
+  { "ticker": "VEA", "weight": 0.20 },
+  { "ticker": "VWO", "weight": 0.10 },
+  { "ticker": "AVUV", "weight": 0.10 },
+  { "ticker": "QQQM", "weight": 0.10 },
+  { "ticker": "SCHD", "weight": 0.10 }
+]
   },
   {
     "id": "deepseek-mar-2026",
@@ -68,18 +64,16 @@
     "created_date": "2025-01-02",
     "active": true,
     "color": "#ec4899",
-    "fee": "~0.14%",
-    "description": "Targets 5.5-6.5% annualized returns over 40 years by combining global equity beta with factor tilts (small-cap value via AVUV/AVDV), and a gold hedge (IAU) against inflation. Minimal bonds (BND) provide future glidepath ballast. Note: original portfolio used Swiss-domiciled ETFs (CHSPI, PGHN, IWDA, ZPRV, ZPRX, CHBAA) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "fee": "~0.12%",
+    "description": "This portfolio seeks to outpace the cap-weighted global benchmark VT by overweighting small-cap value (via AVUV and AVDV) and adding a dedicated real estate sleeve (VNQ), factors historically associated with higher long-term expected returns. It maintains broad geographic diversification across US, developed international, and emerging markets to stay relatively benchmark-aware while aiming for enhanced risk‑adjusted performance.",
     "holdings": [
-      { "ticker": "VEA",  "weight": 0.12 },
-      { "ticker": "VIG",  "weight": 0.08 },
-      { "ticker": "VT",   "weight": 0.40 },
-      { "ticker": "VXUS", "weight": 0.20 },
-      { "ticker": "AVUV", "weight": 0.05 },
-      { "ticker": "AVDV", "weight": 0.05 },
-      { "ticker": "IAU",  "weight": 0.05 },
-      { "ticker": "BND",  "weight": 0.05 }
-    ]
+  { "ticker": "VTI", "weight": 0.40 },
+  { "ticker": "AVUV", "weight": 0.15 },
+  { "ticker": "VXUS", "weight": 0.20 },
+  { "ticker": "AVDV", "weight": 0.10 },
+  { "ticker": "VWO", "weight": 0.10 },
+  { "ticker": "VNQ", "weight": 0.05 }
+  ]
   },
   {
     "id": "perplexity-mar-2026",
@@ -88,17 +82,16 @@
     "created_date": "2025-01-02",
     "active": true,
     "color": "#38bdf8",
-    "fee": "~0.22%",
-    "description": "A global, equity-dominant retirement portfolio with tilts to global small caps, emerging markets, and quality, complemented by a small allocation to global REITs, gold, and bonds for regime diversification. Note: original portfolio used Swiss/European ETFs (VWRL, CHSPI, WSML, VFEM) — replaced here with closest US-listed equivalents for tracking purposes.",
+    "fee": "~0.04%",
+    "description": "This is a low-cost core-satellite portfolio that stays broadly diversified while tilting slightly toward U.S. equities, mid/small caps, and a modest bond sleeve for volatility control. It uses only U.S.-listed ETF tickers that are available on Yahoo Finance, and it keeps the structure simple enough to track against VT over a single quarter while still allowing some active positioning.",
     "holdings": [
-      { "ticker": "VT",   "weight": 0.45 },
-      { "ticker": "VEA",  "weight": 0.10 },
-      { "ticker": "AVUV", "weight": 0.10 },
-      { "ticker": "IEMG", "weight": 0.10 },
-      { "ticker": "QUAL", "weight": 0.10 },
-      { "ticker": "VNQI", "weight": 0.05 },
-      { "ticker": "IAU",  "weight": 0.05 },
-      { "ticker": "BND",  "weight": 0.05 }
+      { "ticker": "VTI", "weight": 0.34 },
+      { "ticker": "VXUS", "weight": 0.18 },
+      { "ticker": "VO", "weight": 0.10 },
+      { "ticker": "VB", "weight": 0.08 },
+      { "ticker": "VTV", "weight": 0.10 },
+      { "ticker": "VUG", "weight": 0.10 },
+      { "ticker": "BND", "weight": 0.10 }
     ]
   }
 ]
